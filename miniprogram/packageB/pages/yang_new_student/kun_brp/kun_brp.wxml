@@ -1,0 +1,24 @@
+  
+<!--miniprogram/packageB/pages/kun_brp/kun_brp.wxml-->
+<view class="logo">
+  <image class="logoIMG" src="/packageB/pages/image/logo.png"></image>
+</view>
+
+
+<view class="weui-article__h1">brp办理流程</view>
+<view class="weui-article__h3">brp的领取</view>
+<view class = "brp">
+<view class="weui-article__p" >  1. 签证办理完成后，会收到一张写有brp领取地址的单子，规定时间到指定地点领取即可，并且校园广场的白色棚子也可以进行brp和Student ID的办理和咨询 </view>
+<view class="weui-article__p" > 2. 领取过brp之后须尽快进行警察局注册的预约，办理步骤可在校园内找到对应的介绍单据 </view>
+
+<view class = "imp">（到英国7天之内完成预约，如若超时，则有拘留和巨额罚款的危险）</view>
+
+<view class="police">
+  <image class = "officer" src="/packageB/pages/image/police.jpg"></image>
+</view>
+
+</view>
+<view class = "attention">
+<view class="weui-article__p">●白色棚子外围所挂的小旗子可以区分具体办理的业务，包含了STUDENT ID, BRP, BANK LETTER等各项业务</view>
+<view class="weui-article__p">●brp领取后注意保管，将和护照一起作为入境的必备材料，补办较为麻烦</view>
+</view>

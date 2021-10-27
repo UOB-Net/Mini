@@ -1,87 +1,63 @@
 {
-	"description": "Project configuration file",
-	"packOptions": {
-		"ignore": []
-	},
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
 	"setting": {
 		"urlCheck": true,
-		"scopeDataCheck": false,
-		"coverView": true,
 		"es6": true,
+		"enhance": true,
 		"postcss": true,
-		"compileHotReLoad": false,
 		"preloadBackgroundData": false,
 		"minified": true,
-		"autoAudits": false,
 		"newFeature": true,
-		"uglifyFileName": false,
-		"uploadWithSourceMap": true,
-		"useIsolateContext": true,
+		"coverView": true,
 		"nodeModules": false,
-		"enhance": false,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"uglifyFileName": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"compileHotReLoad": false,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useIsolateContext": true,
 		"useCompilerModule": false,
 		"userConfirmedUseCompilerModuleSwitch": false,
-		"showShadowRootInWxmlPanel": true
+		"useMultiFrameRuntime": true,
+		"useApiHook": true,
+		"useApiHostProcess": true,
+		"enableEngineNative": false,
+		"bundle": false,
+		"userConfirmedBundleSwitch": false,
+		"packNpmManually": false,
+		"packNpmRelationList": [],
+		"minifyWXSS": true
 	},
-	"compileType": "miniprogram",
-	"libVersion": "2.0.4",
-	"appid": "wx084714a298a5a932",
-	"projectname": "test1",
-	"debugOptions": {
-		"hidedInDevtools": []
-	},
-	"isGameTourist": false,
+	"appid": "wxfc142132852818b6",
+	"projectname": "UoB_CNSoc_V03",
+	"libVersion": "2.12.2",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {
-		"search": {
-			"current": -1,
-			"list": []
-		},
-		"conversation": {
-			"current": -1,
-			"list": []
-		},
 		"plugin": {
-			"current": -1,
 			"list": []
 		},
 		"game": {
-			"currentL": -1,
 			"list": []
 		},
 		"gamePlugin": {
-			"current": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
 			"list": [
 				{
-					"id": -1,
-					"name": "pages/main/main",
-					"pathName": "pages/main/main",
+					"name": "phone",
+					"pathName": "packageB/pages/yang_new_student/yang_phone/yang_phone",
 					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/main2/main2",
-					"pathName": "pages/main2/main2",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/swiper/swiper",
-					"pathName": "pages/swiper/swiper",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/index/index",
-					"pathName": "pages/index/index",
 					"scene": null
 				}
 			]
