@@ -17,3 +17,22 @@ page {
   margin-top: 20rpx;
   padding: 15rpx;
 }
+
+.weui-article__h1{
+  text-align-last: center;
+}
+
+.barclays{
+  width: 90px;
+  height: 90px;
+}
+
+.lloyds{
+  width: 105px;
+  height: 90px;
+}
+
+.hsbc{
+  width: 95px;
+  height: 90px;
+}
